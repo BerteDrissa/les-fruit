@@ -1,0 +1,54 @@
+.orange{
+    background: rgb(146, 175, 88);
+    width: 50%;
+    float: left;
+    
+    
+}
+.banane{
+    background: rgb(69, 41, 97);
+    float: right;
+    width: 50%;
+    
+}
+.mangue{
+   
+    background: grey;
+    width: 50%;
+    float: left;
+}
+.ananas{
+    width: 50%;
+    background: #1c3253;
+    float: right;
+}
+img{
+
+    width: 900px;
+    height: 900px;
+}
+
+.section-one, .section-two
+{
+    
+    display:flex;
+
+}
+.banane,.ananas,.mangue,.orange{
+    margin: 40px;
+    text-align: center;
+    box-shadow: 5px 5px 40px -5px black;
+    border-radius: 45px;
+
+}
+.container{
+
+    margin: 400px 2000px 0px 2000px;
+}
+.text >h4{
+    font-size: 70px;
+    padding: 70px;
+    font-size: bold;
+    text-align: center;
+    background-color: white;
+}
